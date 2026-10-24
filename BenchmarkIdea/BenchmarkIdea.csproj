@@ -9,7 +9,9 @@
 
 	<ItemGroup>
 		<Compile Remove="Automation\MockServer.cs" />
-		<None Include="Automation\MockServer.cs" />
+		<None Include="Automation\MockServer.cs">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 
 	<ItemGroup>
