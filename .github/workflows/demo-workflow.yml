@@ -10,5 +10,4 @@ jobs:
         with: 
           dotnet-version: 10.0.x
       - run: dotnet build BenchmarkIdea.sln --configuration Release
-      - run: ls
       - run: dotnet run ./BenchmarkIdea/Automation/MockServer.cs
