@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BenchmarkIdea/BenchmarkIdea.csproj" />
+  <Project Path="MinApiMocks/MinApiMocks.csproj" Id="219ff9d1-4fce-4e2a-8779-a5a444954669" />
+</Solution>
